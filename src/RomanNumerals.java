@@ -1,5 +1,5 @@
 public class RomanNumerals {
-    public boolean numerals(String number){
-        return true;
+    public String numerals(int number){
+        return "";
     }
 }

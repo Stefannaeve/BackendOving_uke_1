@@ -2,11 +2,11 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class test {
+public class RomanNumeralTest {
     //Henrik, Pårse sug
     @Test
-    void test(){
+    public void testOneReturnsI(){
         RomanNumerals romanNumerals = new RomanNumerals();
-        assertEquals(romanNumerals.numerals("iv"), true);
+        assertEquals(romanNumerals.numerals(1), "i");
     }
 }
